@@ -21,7 +21,7 @@ import {
  * @param {Array}  [posterParams.drawArray = [] ] - 绘制的数组对象(根据下标顺序绘制)
  * 小程序
  * @param {String} posterParams.canvasId - 小程序canvas节点的id,必传
- * @param {Boolean} [posterParams.that] - 小程序获取节点要使用的this,当在小程序组件中使用时,请传递该this,否则组件中无法正确获取到canvas节点
+ * @param {Object} [posterParams.that] - 小程序获取节点要使用的this,当在小程序组件中使用时,请传递该this,否则组件中无法正确获取到canvas节点
  * type = text
  * @param {String} [posterParams.drawArray[].type] - 绘制的类型 "image" | "text"
  * @param {String} [posterParams.drawArray[].color = "#000"] - 文本颜色
