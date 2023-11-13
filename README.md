@@ -80,6 +80,8 @@ const posterParams = {
 ### web端示例
 
 ```js
+import { createPoster } from "../../utils/poster/index";
+
 const posterParams = {
     canvasWidth: 100,
     canvasHeight: 170,
